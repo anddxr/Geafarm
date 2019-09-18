@@ -1,0 +1,560 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201708 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.geofarm.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1994                
+POS_TIME 2660                
+POS_VISITOR 14466               
+POS_DAY 18337               
+POS_DOMAIN 3508                
+POS_LOGIN 3741                
+POS_ROBOT 3896                
+POS_WORMS 4407                
+POS_EMAILSENDER 4538                
+POS_EMAILRECEIVER 4681                
+POS_SESSION 19072               
+POS_SIDER 19257               
+POS_FILETYPES 4816                
+POS_DOWNLOADS 5079                
+POS_OS 5151                
+POS_BROWSER 5288                
+POS_SCREENSIZE 6129                
+POS_UNKNOWNREFERER 6203                
+POS_UNKNOWNREFERERBROWSER 6767                
+POS_ORIGIN 6918                
+POS_SEREFERRALS 7061                
+POS_PAGEREFS 7240                
+POS_SEARCHWORDS 7567                
+POS_KEYWORDS 7719                
+POS_MISC 2323                
+POS_ERRORS 7778                
+POS_CLUSTER 3597                
+POS_SIDER_404 7919                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170901002245 32 5514 10315351527260
+FirstTime 0
+LastTime 20170830200321
+LastUpdate 20170901045702 32 0 31 0 0
+TotalVisits 78                  
+TotalUnique 71                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 106                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 60 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 55 9975728 15 40 2141813
+1 1 16 402209 11 30 4288814
+2 27 96 10050965 15 23 436366
+3 25 25 564481 16 41 2976197
+4 2 21 1446839 19 61 2779762
+5 5 5 33575 13 38 4268409
+6 5 51 2382612 12 40 1991819
+7 8 38 7807560 8 40 5673245
+8 7 71 5157097 18 61 3685354
+9 9 102 21264168 19 40 1569415
+10 21 117 17991349 33 63 3308128
+11 1 23 2594635 18 59 1946669
+12 1 1 6715 17 47 2179145
+13 5 71 10382524 14 42 1750503
+14 4 59 9399257 16 72 4532912
+15 54 194 24210339 29 81 7465773
+16 6 116 27274913 17 60 3479950
+17 17 154 27578419 20 65 5890152
+18 51 190 20792138 42 163 6301829
+19 8 55 3023237 18 45 2786847
+20 4 67 13022539 19 58 5901584
+21 3 41 10522231 10 38 7699312
+22 3 68 11243686 24 89 17825653
+23 0 1 195371 9 33 7725776
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 270 1637 237322587
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+googlebot 418 68067404 20170831211831 44
+yandex 277 19123256 20170831225906 119
+bot[\s_+:,\.\;\/\\-] 102 6503789 20170830202055 15
+baiduspider 90 2022181 20170831184404 0
+unknown 19 5111 20170829150628 19
+facebook 16 7041414 20170815223801 0
+ia_archiver 5 64751 20170829155652 3
+surveybot 4 64778 20170821083701 2
+mail\.ru 2 32241 20170825133823 1
+wget 1 31972 20170818055835 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 258 11771003 0 0
+png 139 3951764 0 0
+htm 16 107440 0 0
+woff 1 65452 0 0
+html 46 1471940 0 0
+jpg 425 203384958 0 0
+js 504 7893513 0 0
+jpeg 20 3907420 0 0
+Unknown 180 3513142 0 0
+gif 21 49217 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 203 0 54607
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 9
+linuxandroid 127
+winlong 25
+winxp 145
+winnt 248
+winvista 64
+linux 23
+win7 967
+macosx 2
+Unknown 36
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 43
+msie6.0 49
+chrome50.0.2661.89 1
+android 2
+chrome58.0.3029.81 1
+chrome28.0.1500.95 148
+chrome56.0.2924.87 1
+firefox54.0 83
+chrome43.0.2357.121 1
+chrome58.0.3029.110 1
+opera9.80 22
+iphone 1
+msie8.0 132
+chrome60.0.3112.78 38
+chrome60.0.3112.101 83
+chrome53.0.2785.116 1
+chrome49.0.2623.112 76
+Unknown 1
+chrome30.0.0.0 1
+chrome57.0.2987.137 36
+chrome59.0.3071.115 97
+firefox48.0 1
+firefox53.0 3
+chrome55.0.2883.87 1
+chrome58.0.3029.83 1
+chrome53.0.2785.143 2
+chrome34.0.1847.131 1
+safari10.0 1
+chrome60.0.3112.107 53
+chrome41.0.2272.118 21
+chrome59.0.3071.125 183
+firefox47.0 19
+firefox45.0 1
+chrome60.0.3112.113 342
+chrome54.0.2840.71 2
+chrome45.0.2454.94 1
+mozilla 19
+chrome51.0.2704.106 1
+msie10.0 66
+firefox3.6.3 1
+chrome60.0.3112.90 66
+firefox35.0 38
+chrome56.1.2924.93 1
+firefox3.6.13 38
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+com.google.GoogleMobile/31.0.0_iPad/10.3.3_hw/iPad4_1 20170816093855
+com.google.GoogleMobile/31.0.0_iPhone/10.3.3_hw/iPhone8_1 20170809205829
+Opera/9.80_(Series_60;_Opera_Mini/7.1.32444/66.330;_U;_en)_Presto/2.12.423_Version/12.16 20170825063003
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20170820074210
+Opera/9.80_(Android;_Opera_Mini/28.0.2254/66.330;_U;_en)_Presto/2.12.423_Version/12.16 20170825054428
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20170829150638
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+com.google.GoogleMobile/31.0.0_iPad/10.3.3_hw/iPad4_1 20170816093855
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 100 113
+From1 2 2
+From2 34 55
+From3 16 16
+From4 118 1451
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 10 31
+bing 1 1
+yandex 23 23
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://m.facebook.com 4 4
+https://www.facebook.com 4 4
+http://yandex.ua/clck/jsredir 3 3
+http://lm.facebook.com/l.php 2 2
+https://l.facebook.com 2 2
+https://yandex.ua/search/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 3 1110
+302 13 5138
+206 6 841170
+400 51 750367
+404 262 3874195
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 69
+/sitemap.xml 1 -
+/wp-content/plugins/asu/undefined 1 http://geofarm.com.ua/wp-content/plugins/asu/idx.php
+/pic/NAVCONTROLLERII_Trimble_%D0%93%D0%B5%D0%BE%D1%84%D0%B0%D1%80%D0%BC.jpg 2 http://geofarm.com.ua/site/product_view/27
+/manager/ 5 -
+/fileman/Uploads/Case_3330_%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3.jpg 3 http://geofarm.com.ua/admin/product/update/id/3
+/fileman/Uploads/Summary2.jpg 1 http://geofarm.com.ua/admin/product/update/id/28
+/fileman/Uploads/026Kamaz.jpg 4 https://www.google.com.ua/
+/kcfinder/undefined 1 http://geofarm.com.ua/kcfinder/browse.php
+/design/fonts/fontawesome-webfont.eot@v=4.0.0 5 http://geofarm.com.ua/site/product_view/43
+/site/undefined 4 http://geofarm.com.ua/site/contact
+/fileman/Uploads/Field_IQ_in_Product.jpg 1 -
+/https@oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js 10 http://geofarm.com.ua/
+/fileman/Uploads/vacuum_cavity_precision_planting.png 3 -
+/manager/media/script/mootools/mootools.js 5 -
+/wp-content/plugins/asu/idx.php 1 -
+/fileman/Uploads/FMX_TMX_Trimble_ISOBUS_New_Holla.jpg 7 -
+/kcfinder/browse.php 1 -
+/fileman/Uploads/Precision_Planting_John_Deere_Ge.jpg 4 -
+/mm5/admin.mvc 1 geofarm.com.ua
+/storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg 2 -
+/fileman/Uploads/Berthoud_3240_%D0%93%D0%B5%D0%BE%D1%84%D0%B0%D1%80%D0%BC_Trimble_EZ.jpg 1 http://geofarm.com.ua/admin/product/update/id/30
+/fileman/Uploads/NAVCONTROLLERII_Trimble_%D0%93%D0%B5%D0%BE%D1%84%D0%B0%D1%80%D0%BC.jpg 2 http://www.geofarm.com.ua/site/product_view/27
+/fileman 1 -
+/admin/product/update/id/a/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js 31 http://geofarm.com.ua/admin/product/update/id/3
+/fileman/Uploads/EZPilot_%D0%B2_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82.jpg 1 http://geofarm.com.ua/admin/product/update/id/30
+/undefined 1 http://geofarm.com.ua/fileman
+/t.html 1 -
+/fileman/Uploads/New_Holland_TD5.110%20%D0%93%D0%B5%D0%BE%D1%84%D0%B0%D1%80%D0%BC%20trimble%20ezpilot.jpg 1 http://geofarm.com.ua/admin/product/update/id/30
+/fileman/Uploads/Geofarm_Precision_planting_disk.jpg 4 -
+/fileman/Uploads/New_Holland_TG285_%D0%90%D0%B2%D1%82%D0%BE%D0%BF%D0%B8%D0%BB%D0%BE%D1%82_Trim.jpg 2 http://www.geofarm.com.ua/site/product_view/27
+/fileman/Uploads/Field_IQ_in_Product17.jpg 6 https://www.google.com
+/wp-login.php 2 http://geofarm.com.ua/wp-login.php
+/fileman/Uploads/%D0%90%D0%B2%D1%82%D0%BE%D0%BF%D0%B8%D0%BB%D0%BE%D1%82_%D0%B2_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82_%D0%BD%D0%B5_%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BB%20.jpg 7 https://www.google.kz/
+/fileman/Uploads/Geofarm_Precision_planting_singu.png 4 -
+/fileman/Uploads/FMX_TMX_Trimble_Autopilot_ISOBUS.jpg 6 -
+/fileman/Uploads/%D0%93%D0%B5%D0%BE%D1%84%D0%B0%D1%80%D0%BC_Trimble_%D0%90%D0%B2%D1%82%D0%BE%D0%BF%D0%B8%D0%BB%D0%BE%D1%82_EZ_Pil.5cm.jpg 3 -
+/pic/Berthoud_3240_%D0%93%D0%B5%D0%BE%D1%84%D0%B0%D1%80%D0%BC_Trimble_EZ.jpg 2 http://geofarm.com.ua/admin/product/update/id/30
+/fileman/Uploads/undefined 4 http://www.geofarm.com.ua/fileman/Uploads/CFX_1Product.jpg
+/fileman/Uploads/%D0%9C%D0%A2%D0%97_1025_EZ_Pilot_Trimble_%D0%93%D0%B5%D0%BE%D1%84%D0%B0%D1%80.jpg 1 http://geofarm.com.ua/admin/product/update/id/30
+/fileman/Uploads/%D0%90%D0%B2%D1%82%D0%BE%D0%BF%D0%B8%D0%BB%D0%BE%D1%82_%D0%B2_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82_%D1%81_%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%BE.jpg 20 https://www.google.com.ua/
+/pic/New_Holland_TG285_%D0%90%D0%B2%D1%82%D0%BE%D0%BF%D0%B8%D0%BB%D0%BE%D1%82_Trim.jpg 4 http://geofarm.com.ua/site/product_view/27
+/https@oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js 10 http://geofarm.com.ua/
+/fileman/Uploads/250_2Product.jpg 3 http://geofarm.com.ua/admin/product/update/id/38
+/pic/Field_IQ_in_Product17.jpg 5 http://geofarm.com.ua/admin/product/update/id/3
+/fileman/Uploads/CFX_1Product.jpg 7 https://www.google.co.id/
+/wp-admin 1 http://geofarm.com.ua
+/admin/product/update/id/admin 1 http://geofarm.com.ua/admin/product/update/id/3
+/fileman/Uploads/Geofarm_Precision_Planting_vacuu.jpg 3 -
+/fileman/Uploads/250_1Product.jpg 1 http://geofarm.com.ua/admin/product/update/id/38
+/docs-assets/js/ie8-responsive-file-warning.js 7 http://geofarm.com.ua/
+/pic/Fendt_936_Vario_%D0%93%D0%B8%D0%B4%D1%80%D0%B0%D0%B2%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%90.jpg 2 http://geofarm.com.ua/site/product_view/27
+/design/fonts/glyphicons-halflings-regular.eot@ 3 http://geofarm.com.ua/
+/fileman/Uploads/026DUT_tab.jpg 2 -
+/fileman/Uploads/norac_total_2.jpg 3 https://www.google.com.ua/
+/pic/undefined 2 http://geofarm.com.ua/pic/New_Holland_TG285_%D0%90%D0%B2%D1%82%D0%BE%D0%BF%D0%B8%D0%BB%D0%BE%D1%82_Trim.jpg
+/design/fonts/fontawesome-webfont.eot@ 3 http://geofarm.com.ua/
+/pic/%D0%90%D0%B2%D1%82%D0%BE%D0%BF%D0%B8%D0%BB%D0%BE%D1%82_%D0%B2_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82_%D0%BD%D0%B5_%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BB%20.jpg 2 http://geofarm.com.ua/site/product_view/27
+/fileman/Uploads/Geofarm_Precision_Planting_seed_.png 3 http://geofarm.com.ua/site/product_view/44
+/admin/product/update/id/undefined 1 http://geofarm.com.ua/admin/product/update/id/admin
+/pic/%D0%90%D0%B2%D1%82%D0%BE%D0%BF%D0%B8%D0%BB%D0%BE%D1%82_%D0%B2_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82_%D1%81_%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%BE.jpg 2 http://geofarm.com.ua/site/product_view/27
+/site/docs-assets/js/ie8-responsive-file-warning.js 4 http://geofarm.com.ua/site/product_view/43
+/fileman/Uploads/Fendt_936_Vario_EZ_Pilot_Trimble.jpg 2 -
+/fileman/Uploads/CFX_2Product.jpg 9 -
+/fileman/Uploads/Fendt_936_Vario_%D0%93%D0%B8%D0%B4%D1%80%D0%B0%D0%B2%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%90.jpg 5 http://www.geofarm.com.ua/site/product_view/27
+/design/fonts/fontawesome-webfont.svg@v=4.0.0 4 -
+/fileman/Uploads/%D0%93%D0%B5%D0%BE%D1%84%D0%B0%D1%80%D0%BC_Trimble_%D0%90%D0%B2%D1%82%D0%BE%D0%BF%D0%B8%D0%BB%D0%BE%D1%82_EZ_Pil.jpg 1 http://geofarm.com.ua/admin/product/update/id/30
+/manager/assets/modext/core/modx.js 2 -
+/fileman/Uploads/Berthoud_Raptor_4240_%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_%D0%B0%D0%B2%D1%82.jpg 5 -
+/fileman/Uploads/026everyday.jpg 3 https://www.google.co.id/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 106
+46.119.176.104 81 312 34006103 20170830101502
+46.161.9.57 48 48 1022670 20170829023733
+49.73.240.14 24 24 532509 20170811035752
+167.114.157.79 12 12 279535 20170829150639
+195.184.218.5 9 51 11191900 20170817150720
+70.211.145.206 5 25 2583926 20170828103215
+78.26.133.36 4 49 4209598 20170830083639
+93.171.243.23 3 38 8751359 20170814175704
+5.59.33.172 3 39 8910300 20170810092523
+78.137.6.23 3 22 887010 20170808090330
+176.15.176.66 1 20 501621 20170815140115
+52.86.152.120 1 1 31972 20170829175239
+217.40.249.81 0 1 929128 
+78.155.228.193 0 1 714477 
+192.187.97.66 2 2 63944 20170803144215
+37.204.48.174 1 16 399768 20170811131035
+37.145.114.135 1 14 451944 20170815153932
+208.67.168.71 0 1 330392 
+125.160.193.78 1 1 6715 20170825055955
+54.218.94.28 1 1 32120 20170801061843
+88.132.182.24 0 1 344424 
+95.153.104.95 0 1 727314 
+82.145.221.126 2 21 610405 20170825063003
+46.211.145.49 2 26 2952769 20170830200321
+178.210.205.16 2 38 8878386 20170815223801
+46.42.134.195 1 16 402209 20170830011625
+36.71.164.162 1 19 510996 20170805151610
+5.153.233.19 1 1 21328 20170827213727
+31.180.110.114 0 1 159237 
+37.57.81.15 0 1 727314 
+178.150.76.68 0 1 195371 
+180.247.154.119 1 1 6715 20170825130350
+95.221.226.4 2 74 17667384 20170803214717
+173.193.202.116 1 19 510996 20170810191618
+36.84.1.215 1 1 6715 20170825074638
+46.188.100.175 1 36 8638321 20170828022240
+77.127.54.164 0 1 423073 
+125.165.130.98 1 1 6715 20170825053942
+95.128.151.90 0 1 658663 
+167.57.25.170 0 1 727314 
+36.72.87.194 1 1 6715 20170825095950
+115.178.192.192 1 19 510996 20170822083445
+109.61.174.29 2 38 8878386 20170822174314
+189.50.229.173 0 1 929128 
+109.63.158.202 1 20 501621 20170827025332
+79.165.120.167 1 26 1229711 20170830062551
+178.140.112.170 1 23 5420681 20170803183813
+185.43.238.173 0 1 929128 
+94.231.120.61 0 1 333310 
+5.13.183.96 0 1 714477 
+201.90.172.163 0 1 344424 
+178.215.173.182 0 1 559708 
+213.24.133.29 0 1 929128 
+193.106.213.138 0 1 714477 
+93.115.95.205 1 1 31972 20170829154933
+204.13.201.137 1 15 391385 20170829154858
+77.40.129.123 2 38 8878386 20170829154909
+95.31.162.199 1 37 8833692 20170812001001
+92.141.66.82 0 1 714477 
+128.72.208.243 1 37 8833692 20170823204834
+193.110.106.62 0 2 1646465 
+186.15.152.154 0 1 344424 
+75.160.165.25 1 2 733136 20170817002154
+195.62.14.199 2 38 8878386 20170821093227
+36.66.170.193 2 20 517711 20170826041338
+176.15.225.126 0 14 3413011 
+103.213.131.95 1 1 6715 20170825064557
+94.140.236.16 2 2 54933 20170818151528
+128.68.214.68 1 16 408900 20170826005446
+64.233.173.39 1 1 6715 20170826081619
+36.69.13.23 1 1 6715 20170825161308
+46.42.167.54 1 19 613733 20170812130139
+195.182.195.22 2 37 8719297 20170809091601
+188.32.129.128 1 16 399768 20170825021923
+196.52.84.26 1 1 21336 20170813072108
+66.249.81.170 2 5 79943 20170816093900
+31.31.7.133 0 1 727314 
+37.147.108.24 1 1 31972 20170807205042
+109.63.140.34 1 28 721695 20170802220509
+141.0.8.64 1 1 6715 20170825054428
+139.59.149.99 1 1 31972 20170829155503
+194.50.254.59 0 1 423073 
+91.208.39.71 0 1 717337 
+66.249.81.166 0 11 303302 
+91.83.221.104 0 1 727314 
+103.28.22.89 1 1 6715 20170825053641
+103.10.66.31 1 1 6715 20170825124758
+92.126.216.240 0 1 727314 
+46.188.100.186 1 37 8833692 20170804161838
+190.14.146.43 0 1 344424 
+89.21.89.158 0 1 559708 
+52.213.31.248 1 1 31972 20170810031314
+157.185.131.243 1 1 6715 20170825055057
+176.31.64.186 2 2 41492 20170827213725
+212.115.252.89 2 33 8075286 20170814135434
+94.19.18.175 2 38 8878386 20170803162554
+8.37.233.228 1 1 6715 20170825072746
+85.192.189.17 0 1 159237 
+176.15.228.103 1 17 412247 20170826193147
+5.228.20.199 0 15 219459 
+188.32.129.131 1 20 819534 20170811112358
+66.249.81.168 0 5 860887 
+66.249.92.132 1 1 31972 20170820074210
+112.215.170.95 1 1 6715 20170825085318
+91.202.132.67 0 1 333310 
+85.117.113.92 3 33 7720076 20170813073730
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20170801 1 1 32120 1
+20170802 1 28 721695 1
+20170803 7 154 37290136 5
+20170804 1 37 8833692 1
+20170805 1 19 510996 1
+20170807 3 23 1319273 2
+20170808 1 1 22782 1
+20170809 4 77 19241288 2
+20170810 29 67 2532685 5
+20170811 26 61 2466288 3
+20170812 2 56 9447425 2
+20170813 5 35 7762158 3
+20170814 5 73 18483087 2
+20170815 4 90 12042299 3
+20170816 2 22 1958609 1
+20170817 10 55 12986797 2
+20170818 2 4 547480 1
+20170820 1 1 31972 1
+20170821 2 39 9208778 1
+20170822 3 58 10318510 2
+20170823 1 38 9548169 1
+20170824 0 3 1730401 0
+20170825 16 51 1824782 15
+20170826 5 54 1345573 4
+20170827 3 23 1271009 3
+20170828 73 306 33187743 3
+20170829 42 92 10156477 7
+20170830 20 169 22500363 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+1h+ 1
+2mn-5mn 3
+30s-2mn 2
+15mn-30mn 1
+0s-30s 71
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 40
+/ 44 1407816 31 20
+/design/fonts/fontawesome-webfont.woff@v=4.0.0 27 1206738 3 19
+/site/contact 18 374132 11 8
+/admin/product/index 16 287690 0 0
+/asu.htm 16 107440 16 14
+/site/product_view/27 13 295942 4 1
+/site/product_view/44 10 252944 3 5
+/site/product_view/3 10 179832 0 0
+/site/product_view/29 10 213324 0 1
+/site/product_view/43 9 205438 5 4
+/admin/product/update/id/3 4 45490 0 0
+/site/product_view/30 7 155225 0 1
+/site/product_view/39 8 135000 0 1
+/site/product/3 4 70002 0 0
+/admin/default/login 1 6603 1 0
+/admin/product/index/Product_page/2 4 56368 0 0
+/admin/settings/update/id/1 1 8844 0 0
+/admin/product/update/id/27 1 16769 0 0
+/admin/product/update/id/37 1 15476 0 0
+/admin/product/update/id/30 2 32774 0 0
+/admin/product/update/id/39 1 9876 0 0
+/site/product_view/42 5 98413 1 0
+/admin/product/update/id/29 1 14476 0 0
+/site/ 2 64124 0 0
+/site/product/2 4 125100 1 0
+/site/page/1 4 63674 0 0
+/site/product_view/36 6 137766 0 3
+/site/product_view/28 4 78264 0 0
+/admin/product/update/id/36 1 16366 0 0
+/site/product_view/40 7 130213 2 1
+/site/product_view/41 6 95304 0 0
+/site/product_view/38 3 48811 0 0
+/admin/category/index 1 7527 0 0
+/admin/product/update/id/38 1 9327 0 0
+/admin/product/update/id/44 3 58491 0 0
+/site/category 3 57844 0 0
+/site/product/4 4 65014 0 0
+/design_admin/font-awesome/fonts/fontawesome-webfont.woff 1 65452 0 0
+/site/product_view/37 6 131932 0 0
+/admin/product/update/id/28 1 12891 0 0
+END_SIDER

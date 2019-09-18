@@ -1,0 +1,517 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201603 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.geofarm.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1994                
+POS_TIME 2661                
+POS_VISITOR 10070               
+POS_DAY 14409               
+POS_DOMAIN 3537                
+POS_LOGIN 3770                
+POS_ROBOT 3925                
+POS_WORMS 4326                
+POS_EMAILSENDER 4457                
+POS_EMAILRECEIVER 4600                
+POS_SESSION 15246               
+POS_SIDER 15453               
+POS_FILETYPES 4735                
+POS_DOWNLOADS 4979                
+POS_OS 5027                
+POS_BROWSER 5175                
+POS_SCREENSIZE 5920                
+POS_UNKNOWNREFERER 5994                
+POS_UNKNOWNREFERERBROWSER 6081                
+POS_ORIGIN 6213                
+POS_SEREFERRALS 6353                
+POS_PAGEREFS 6540                
+POS_SEARCHWORDS 6756                
+POS_KEYWORDS 6908                
+POS_MISC 2323                
+POS_ERRORS 6967                
+POS_CLUSTER 3626                
+POS_SIDER_404 7112                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160401045355 75 17929 8780666229095
+FirstTime 0
+LastTime 20160331224805
+LastUpdate 20160401045917 75 0 74 0 0
+TotalVisits 137                 
+TotalUnique 81                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 116                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 102 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 15 101 18702815 33 63 5516766
+1 2 7 2369598 31 82 4390025
+2 1 2 104371 30 57 1560990
+3 2 2 50733 10 21 2335935
+4 0 0 0 18 30 2974417
+5 2 21 1230031 26 39 2534344
+6 1 1 29299 19 55 2885391
+7 7 105 14742598 17 36 2562037
+8 3 23 1753655 16 38 3811684
+9 6 78 20971420 16 45 6112401
+10 19 164 33169886 37 79 4161549
+11 32 271 60776718 27 52 8212125
+12 40 290 60912822 56 130 12075004
+13 38 356 83254756 49 107 4943561
+14 101 649 90639381 65 132 9565023
+15 14 89 10998159 22 46 6334493
+16 43 344 62243915 32 55 5789835
+17 59 355 72423432 62 99 4970269
+18 11 109 16679683 30 50 1950966
+19 35 220 41949427 35 72 4144722
+20 83 788 78881657 65 146 2588230
+21 70 600 89558099 56 109 8724237
+22 51 377 69290893 61 166 13684751
+23 29 93 19241914 33 52 6282676
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 664 5045 849975262
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+googlebot 769 101754707 20160331203724 0
+yandex 242 22033654 20160331181635 0
+favicon 21 114796 20160331170320 0
+surveybot 2 10940 20160322000048 0
+no_user_agent 1 29299 20160310205730 0
+baiduspider 1 3710 20160306154239 0
+bot[\s_+:,\.\;\/\\-] 1 29565 20160303170315 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 719 24328259 0 0
+png 466 8844979 0 0
+woff 5 327260 0 0
+html 174 1161030 0 0
+jpg 1766 793006647 0 0
+js 1356 17133393 0 0
+0 1 44694 0 0
+Unknown 401 1873500 0 0
+gif 74 135313 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 10
+linuxandroid 212
+winxp 284
+winlong 82
+winnt 149
+java 1
+linux 123
+winvista 157
+win7 3955
+macosx 81
+win2003 1
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 41
+chrome34.0.1847.76 1
+firefox44.0 324
+firefox26.0 20
+chrome49.0.2623.110 67
+chrome48.0.2564.116 1697
+chrome31.0.1650.57 106
+chrome31.0.1650.63 155
+opera9.80 85
+iphone 19
+msie8.0 82
+chrome18.6.872.0 1
+chrome47.0.2526.111 4
+msie7.0 1
+firefox41.0 1
+chrome21.0.1228.0 72
+msie9.0 22
+Unknown 1
+firefox27.0 2
+firefox11.0 1
+chrome30.0.0.0 168
+firefox40.0 23
+safari8.0.8 21
+chrome49.0.2623.87 1299
+chrome48.0.2564.95 41
+firefox38.0 1
+chrome49.0.2623.108 33
+chrome49.0.2623.75 74
+firefox45.0 52
+safari4.0 87
+mozilla 307
+firefox25.0 120
+chrome48.0.2564.109 2
+netscape5.0 1
+chrome42.0.0.0 1
+msie10.0 52
+chrome46.0.2490.86 1
+firefox3.6.3 2
+chrome48.0.2564.106 1
+firefox19.0 2
+safari 41
+chrome48.0.2564.97 55
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Apache-HttpClient/4.3.5_(java_1.5) 20160310223831
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 56 68
+From1 0 0
+From2 88 121
+From3 9 9
+From4 511 4847
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 56 87
+google_image 5 7
+yandex 27 27
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://yandex.ua/clck/jsredir 8 8
+http://yandex.kz/clck/jsredir 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 39 17313
+206 6 1144877
+500 6 20795
+400 234 793355
+404 330 1861420
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 24
+/windows.microsoft.com/en-us/internet-explorer/https@oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js 2 http://www.geofarm.com.ua/windows.microsoft.com/en-us/internet-explorer/products/ie/home@ocid=ie6_countdown_bannercode
+/windows.microsoft.com/en-us/internet-explorer/products/docs-assets/js/ie8-responsive-file-warning.js 2 http://www.geofarm.com.ua/windows.microsoft.com/en-us/internet-explorer/products/ie/home@ocid=ie6_countdown_bannercode
+/robots.txt 172 -
+/admin/product/admin 2 http://geofarm.com.ua/admin/product/index
+/windows.microsoft.com/en-us/internet-explorer/storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg 1 http://www.geofarm.com.ua/windows.microsoft.com/en-us/internet-explorer/products/ie/home@ocid=ie6_countdown_bannercode
+/windows.microsoft.com/en-us/internet-explorer/products/ie/home@ocid=ie6_countdown_bannercode 1 http://www.geofarm.com.ua/
+/design/fonts/fontawesome-webfont.eot@ 22 http://www.geofarm.com.ua/site/product_view/27
+/admin/category/undefined 1 http://geofarm.com.ua/admin/category/admin
+/admin/product/a/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js 4 http://geofarm.com.ua/admin/product/create
+/storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg 7 http://www.geofarm.com.ua/site/contact
+/https@oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js 9 http://www.geofarm.com.ua/site/contact
+/site/undefined 38 http://geofarm.com.ua/site/contact
+/admin/page/update/id/a/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js 3 http://geofarm.com.ua/admin/page/update/id/1
+/admin/default/admin 1 http://geofarm.com.ua/admin/default/login
+/site/docs-assets/js/ie8-responsive-file-warning.js 4 http://www.geofarm.com.ua/site/product_view/3
+/admin/product/update/id/a/protected/extensions/eckeditor/ECKEdit5.phpckeditor.js 31 http://geofarm.com.ua/admin/product/update/id/31
+/admin/default/undefined 1 http://geofarm.com.ua/admin/default/admin
+/design/fonts/fontawesome-webfont.svg@v=4.0.0 4 http://www.geofarm.com.ua/
+/https@oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js 9 http://www.geofarm.com.ua/site/contact
+/docs-assets/js/ie8-responsive-file-warning.js 7 http://www.geofarm.com.ua/site/contact
+/admin/category/admin 1 http://geofarm.com.ua/admin/category/index
+/admin/product/undefined 2 http://geofarm.com.ua/admin/product/admin
+/design/fonts/glyphicons-halflings-regular.eot@ 4 http://www.geofarm.com.ua/site/contact
+/windows.microsoft.com/en-us/internet-explorer/https@oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js 2 http://www.geofarm.com.ua/windows.microsoft.com/en-us/internet-explorer/products/ie/home@ocid=ie6_countdown_bannercode
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 116
+46.119.212.68 424 2907 461100050 20160331224805
+93.175.208.1 40 223 46998653 20160324151358
+77.93.42.210 21 94 21101826 20160328125408
+93.175.208.107 16 168 45167417 20160318162744
+78.111.187.3 8 38 6580554 20160303165750
+91.202.0.152 8 49 11205253 20160320135418
+95.111.173.150 8 29 1895142 20160331185351
+78.111.185.148 8 42 9767796 20160324112116
+91.200.54.85 8 54 12412600 20160304203410
+130.180.212.184 4 27 1703924 20160328152543
+178.34.160.29 0 1 75072 
+79.164.157.193 2 17 427083 20160321162705
+213.24.133.114 0 1 717337 
+188.163.106.137 3 25 2398412 20160312164912
+83.161.242.106 2 21 1230082 20160308132724
+87.244.171.240 0 1 714477 
+37.146.103.24 1 20 485636 20160302192443
+87.117.19.165 0 1 943275 
+78.111.187.128 3 6 1185812 20160304091230
+193.107.25.1 2 21 530304 20160323141804
+195.211.230.2 1 19 1412113 20160310124955
+90.179.90.42 0 1 717337 
+95.27.19.225 1 36 9781395 20160301145251
+77.243.183.11 2 2 50733 20160313112417
+2.14.6.14 3 22 1234741 20160331001308
+95.220.223.107 1 36 9781374 20160321120828
+128.69.144.12 1 20 485603 20160315200655
+82.199.103.217 3 23 1656773 20160310101038
+150.70.173.44 1 1 29701 20160306115112
+37.29.40.170 0 1 929128 
+176.77.1.133 1 20 1185387 20160323125104
+37.55.210.230 0 1 612160 
+31.46.250.124 0 1 714477 
+195.239.38.2 4 42 2460120 20160311053854
+82.207.50.186 0 1 379259 
+91.222.248.215 0 1 75072 
+37.76.105.196 0 1 658663 
+188.163.106.130 2 33 8790721 20160328174844
+176.77.77.154 1 20 485603 20160322071715
+130.180.218.18 2 25 1696296 20160326192550
+84.54.194.2 0 1 559708 
+46.53.183.10 0 1 717337 
+78.111.185.79 1 1 4744 20160325121601
+176.14.19.20 1 20 485603 20160320180437
+37.75.132.38 4 40 10553764 20160317172125
+95.25.100.23 1 20 1185387 20160322080059
+46.211.155.148 1 24 2785365 20160320155344
+176.99.7.153 2 2 10920 20160312154405
+95.26.169.47 1 35 9491824 20160308134449
+37.19.200.135 0 1 943275 
+54.163.16.187 1 1 29299 20160323023109
+195.191.138.107 0 2 1124537 
+95.133.160.108 0 1 943275 
+95.164.2.51 2 36 9536510 20160309095415
+90.154.79.123 1 20 1400787 20160302192524
+188.190.79.149 0 1 714477 
+54.166.83.166 1 1 29299 20160314061055
+46.8.239.200 1 1 5327 20160312154357
+185.31.167.31 1 1 3710 20160303165144
+141.101.26.215 0 1 107110 
+176.193.110.75 1 20 1185387 20160320180437
+40.78.146.128 1 1 18883 20160328151349
+93.74.244.141 0 1 658663 
+176.193.145.87 1 20 1185387 20160321121710
+46.138.94.106 1 20 1129712 20160308134450
+213.87.248.194 3 41 12330499 20160316141014
+193.105.7.123 0 1 943275 
+93.80.91.51 1 36 9781395 20160302192238
+213.24.127.133 0 1 639523 
+78.154.176.45 2 29 1183682 20160324142815
+92.113.4.214 2 36 9536510 20160321091250
+62.108.14.220 0 1 714477 
+199.19.249.196 1 1 29435 20160310134505
+46.211.200.8 2 23 2003061 20160303194945
+78.111.185.175 2 4 919247 20160326200358
+176.77.22.154 1 35 9491818 20160320180437
+194.44.133.177 0 1 714477 
+164.144.252.26 0 1 714477 
+150.70.173.47 1 1 15404 20160306115330
+94.180.216.166 1 22 1958332 20160308134449
+95.141.28.126 2 2 50733 20160313030532
+176.214.2.143 0 1 379259 
+94.153.163.230 2 24 2306450 20160328141218
+91.79.248.68 1 20 485636 20160301145251
+150.70.173.51 1 1 29435 20160310133118
+150.70.173.53 1 1 17641 20160306115417
+150.70.188.170 1 1 17641 20160306161320
+78.111.187.197 0 1 639523 
+91.213.59.13 4 41 10674338 20160315194947
+195.248.188.24 0 1 390629 
+150.70.173.11 1 1 29435 20160310134142
+90.11.53.2 4 23 1239205 20160317143905
+82.207.117.85 0 2 950337 
+37.112.35.109 1 20 1185387 20160315200656
+176.105.181.177 1 1 29299 20160317110744
+185.46.149.54 2 31 8115528 20160309111623
+46.175.71.79 0 2 1660612 
+188.227.95.197 2 20 514889 20160328002855
+94.254.241.193 0 1 397223 
+178.71.171.80 2 31 8115528 20160316222341
+176.77.56.53 1 20 485605 20160308134449
+188.163.106.211 0 1 658663 
+188.162.86.223 0 1 411929 
+37.204.39.210 1 35 9491818 20160322071347
+77.222.134.82 0 2 1096596 
+91.224.44.226 2 37 9826066 20160321100241
+37.204.55.71 2 17 426230 20160321170550
+128.72.78.97 1 36 9781374 20160315200656
+109.173.57.105 2 18 440923 20160321165958
+82.200.231.166 3 23 1656866 20160329152150
+203.4.173.149 0 1 714477 
+128.68.5.235 1 20 485603 20160321120913
+52.37.68.191 1 1 5461 20160310223831
+78.111.190.157 3 12 1141867 20160325115053
+66.249.93.139 0 1 714477 
+188.163.99.71 3 39 9845316 20160313110358
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20160301 34 189 41822560 7
+20160302 5 78 11675440 5
+20160303 19 147 31003520 6
+20160304 13 81 14329537 4
+20160305 48 264 44943337 2
+20160306 11 71 13439502 6
+20160307 87 807 84207894 1
+20160308 49 632 70624173 6
+20160309 4 70 19052003 2
+20160310 20 158 30211681 9
+20160311 10 102 22309136 3
+20160312 6 30 3843613 3
+20160313 7 43 9946782 3
+20160314 3 38 9956438 2
+20160315 17 175 38745022 5
+20160316 5 74 21877841 2
+20160317 19 155 36955426 5
+20160318 2 38 10540545 1
+20160319 16 142 30054126 2
+20160320 22 228 49745482 9
+20160321 13 202 33052451 8
+20160322 3 77 11649809 3
+20160323 4 43 2459467 3
+20160324 30 244 52928144 7
+20160325 38 159 36733297 6
+20160326 103 403 43100827 8
+20160328 44 258 49903432 9
+20160329 10 49 8732163 4
+20160330 5 19 6782757 2
+20160331 17 69 9348857 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 9
+30s-2mn 17
+2mn-5mn 5
+15mn-30mn 5
+0s-30s 91
+30mn-1h 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 44
+/ 174 1161030 74 49
+/design/fonts/fontawesome-webfont.woff@v=4.0.0 83 3083886 0 30
+/site/product/2 52 270735 5 1
+/admin/product/index 41 194742 0 0
+/site/contact 36 166824 13 10
+/site/product_view/40 30 137960 13 8
+/site/page/1 28 107360 7 5
+/site/product_view/3 18 82550 2 2
+/site/product_view/28 15 71105 2 6
+/site/product_view/27 13 76330 7 5
+/admin/product/update/id/31 1 2850 0 0
+/site/product_view/30 10 72983 3 5
+/site/product/3 12 44542 1 0
+/site/product_view/39 8 31515 0 3
+/site/product_view/43 10 55470 0 1
+/admin/product/index/Product_page/2 10 38563 0 0
+/admin/default/login 3 6735 0 0
+/admin/product/update/id/37 4 16295 0 0
+/admin/settings/update/id/1 1 2632 0 0
+/admin/product/update/id/39 2 6642 0 0
+/admin/product/update/id/30 2 8108 0 0
+/site/product_view/42 7 33846 0 2
+/admin/product/update/id/40 5 19920 0 0
+/site/product_view/36 10 88333 3 0
+/admin/product/update/id/32 5 18350 0 0
+/site/index 9 48763 0 0
+/admin/product/create 4 14872 0 0
+/admin/page/update/id/1 3 8599 0 0
+/admin/product/update/id/42 3 12698 0 0
+/admin/product/update/id/36 6 29995 0 0
+/admin/product/update/id/38 2 6170 0 0
+/admin/category/index 6 15721 0 0
+/site/product_view/41 6 21918 1 3
+/site/product_view/38 11 40349 2 1
+/admin 3 7893 1 0
+/site/category 4 17307 0 0
+/admin/category/delete/id/13 1 366 0 0
+/design/fonts/fontawesome-webfont.ttf@v=4.0.0 1 80995 0 0
+/site/product/13 2 7031 0 0
+/admin/product/update/id/43 3 14860 0 0
+/design_admin/font-awesome/fonts/fontawesome-webfont.woff 5 327260 0 0
+/site/product_view/32 4 17630 0 2
+/site/product_view/29 5 26582 2 3
+/site/product_view/37 6 28356 1 1
+END_SIDER

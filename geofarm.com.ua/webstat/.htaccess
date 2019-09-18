@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/geofarm.com.ua/webstat"
+AuthUserFile /var/www/lodar/data/etc/75235949.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
