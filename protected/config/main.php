@@ -65,7 +65,7 @@ return array(
         ),
         // database settings are configured in database.php
         'db' => array(
-            'connectionString' => 'mysql:host=127.0.0.1;dbname=geofarm2',
+            'connectionString' => 'mysql:host=127.0.0.1;dbname=_tmp_geofarm',
             'emulatePrepare' => true,
             'username' => 'geofarm2',
             'password' => 'geofarm+11052gen',
