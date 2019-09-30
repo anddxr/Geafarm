@@ -67,8 +67,8 @@ return array(
         'db' => array(
             'connectionString' => 'mysql:host=127.0.0.1;dbname=_tmp_geofarm',
             'emulatePrepare' => true,
-            'username' => 'geofarm2',
-            'password' => 'geofarm+11052gen',
+            'username' => 'root',
+            'password' => 'root',
             'charset' => 'utf8',
             'tablePrefix' => '',
 //            'enableProfiling' => true,
