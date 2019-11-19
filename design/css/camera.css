@@ -15,7 +15,7 @@
 	padding: 0;
 	vertical-align: baseline;
 	list-style: none;
-    line-height: ;
+    line-height: 0;
 }
 .camera_wrap {
 	display: none;
@@ -181,10 +181,10 @@
 .camera-caption a {
     font:italic 300 21px 'Roboto';
     color:#f9f5f2;
-    background:#218600;
+    /* background:#218600; */
     border-radius:6px;
     padding:6px 13px 10px 14px;
-    border-bottom:4px solid #185F00;
+    /* border-bottom:4px solid #185F00; */
     -webkit-transition: all 0.25s ease;
     transition: all 0.25s ease;
 }

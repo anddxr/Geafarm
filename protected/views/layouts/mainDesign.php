@@ -74,8 +74,8 @@ $productsDownBlock = Product::model()->findAll($criteria);
                             <div class="clearfix"></div>
                             <nav class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
                                 <ul class="nav sf-menu clearfix">
-                                    <li class="active"><a href="<?php echo Yii::app()->request->baseUrl; ?>">Главная</a></li>
-                                    <li class="sub-menu"><a href="<?= Yii::app()->createAbsoluteUrl('site/category') ?>">Товары и услуги<span></span></a>
+                                    <li class="active"><a href="<?php echo Yii::app()->request->baseUrl; ?>"><?php echo Yii::t('index', 'Главная'); ?></a></li>
+                                    <li class="sub-menu"><a href="<?= Yii::app()->createAbsoluteUrl('site/category') ?>"><?php echo Yii::t('category', 'Товары и услуги'); ?><span></span></a>
                                         <ul class="submenu">
                                             <?php if (!empty($categories)) { ?>
                                                 <?php foreach ($categories as $category) { ?>
@@ -84,9 +84,10 @@ $productsDownBlock = Product::model()->findAll($criteria);
                                             <?php } ?>
                                         </ul>
                                     </li>
-                                    <li><a href="<?= Yii::app()->createAbsoluteUrl('site/page', ['id' => Page::model()->find('code=:code', [':code' => Page::CODE_ABOUT])->id]) ?>">О нас</a></li>
-                                    <li><a href="<?= Yii::app()->createAbsoluteUrl('site/contact') ?>">Контакты</a></li>
+                                    <li><a href="<?= Yii::app()->createAbsoluteUrl('site/page', ['id' => Page::model()->find('code=:code', [':code' => Page::CODE_ABOUT])->id]) ?>"><?php echo Yii::t('index', 'О нас'); ?></a></li>
+                                    <li><a href="<?= Yii::app()->createAbsoluteUrl('site/contact') ?>"><?php echo Yii::t('contact', 'Контакты'); ?></a></li>
                                 </ul>
+                                   
                             </nav>
                         </section>
                     </article>
@@ -118,7 +119,7 @@ $productsDownBlock = Product::model()->findAll($criteria);
                 <div class="container">
                     <div class="row">
                         <article class="col-lg-4 col-md-6 col-sm-6">
-                            <h2>Специальные предложения</h2>
+                            <h2><?php echo Yii::t('index', 'Специальные предложения'); ?></h2>
                             <div class="row">
                                 <?php
                                 $key = 1;
@@ -141,8 +142,8 @@ $productsDownBlock = Product::model()->findAll($criteria);
                             </div>
                         </article>
                         <article class="col-lg-7 col-md-6 col-sm-6 col-lg-offset-1 newslatter-form">
-                            <h3>Проверенные решения по справедливой стоимости</h3>
-                            <p><?= $page->little_description ?><a href="<?= Yii::app()->createAbsoluteUrl('site/page', ['id' => $page->id]) ?>">[ подробнее ]</a></p>
+                            <h3><?php echo Yii::t('index', 'Проверенные решения по справедливой стоимости'); ?></h3>
+                            <p><?= $page->little_description ?><a href="<?= Yii::app()->createAbsoluteUrl('site/page', ['id' => $page->id]) ?>">[ <?php echo Yii::t('index', 'подробнее '); ?> ]</a></p>
 
                         </article>
                     </div>

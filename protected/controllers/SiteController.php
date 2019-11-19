@@ -95,5 +95,5 @@ class SiteController extends Controller {
         }
         $this->render('contact', array('model' => $model, 'setting' => $setting));
     }
-
+    
 }

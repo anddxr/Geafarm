@@ -172,7 +172,7 @@ nav.tm_navbar .sub-menu > ul li {
 }
 nav.tm_navbar .sub-menu > ul li a {
 	background: transparent;
-	padding: 0;
+	padding: 5;
 	margin: 0;
 	float: none;
 	font: 12px 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -566,7 +566,7 @@ footer.marg {
 	margin-bottom: 27px;
 }
 .support_title {
-	font: 12px 'Roboto Slab';
+	font: 15px 'Roboto Slab';
 	color: #888783;
 	float: right;
 	margin-bottom: 15px;
@@ -600,7 +600,7 @@ footer.marg {
 .support_title em {
 	font-style: normal;
 	display: inline-block;
-	float: left;
+	/* float: left; */
 	margin-right: 7px;
 	margin-top: 6px;
 }
@@ -1492,7 +1492,7 @@ footer.marg {
 	margin-bottom: 33px;
 }
 .thumb-pad6 .badgeBox img {
-	float: left;
+	/* float: left; */
 	display: inline-block;
 	margin-top: -9px;
 	margin-right: 11px;

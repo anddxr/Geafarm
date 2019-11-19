@@ -11,7 +11,7 @@
                                 <div class="caption">
                                     <p class="title"><?= $model->title ?></p>
                                     <p><?= $model->little_description ?></p>
-                                    <a href="<?= Yii::app()->createAbsoluteUrl('site/product_view', ['id' => $model->id]) ?>" class="btn-default btn2">подробнее <span class="fa fa-angle-double-right"></span></a>
+                                    <a href="<?= Yii::app()->createAbsoluteUrl('site/product_view', ['id' => $model->id]) ?>" class="btn btn-primary"><?php echo Yii::t('index', 'подробнее '); ?><!--подробнее --><span class="fa fa-angle-double-right"></span></a>
                                 </div>
                             </div>
                         </div>

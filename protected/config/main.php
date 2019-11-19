@@ -8,7 +8,7 @@ return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
     'name' => 'My Web Application',
     // preloading 'log' component
-    'language' => 'ru',
+    'language' => 'ua',
     'sourceLanguage' => 'ru',
     'preload' => array('log'),
     // autoloading model and component classes
@@ -65,10 +65,10 @@ return array(
         ),
         // database settings are configured in database.php
         'db' => array(
-            'connectionString' => 'mysql:host=127.0.0.1;dbname=geofarm2',
+            'connectionString' => 'mysql:host=127.0.0.1;dbname=_tmp_geofarm',
             'emulatePrepare' => true,
-            'username' => 'geofarm2',
-            'password' => 'geofarm+11052gen',
+            'username' => 'root',
+            'password' => 'root',
             'charset' => 'utf8',
             'tablePrefix' => '',
 //            'enableProfiling' => true,
@@ -93,6 +93,13 @@ return array(
              */
             ),
         ),
+        'i18n' => [
+            'translations' => [
+                '*' => [
+                    'class' => 'yii\i18n\PhpMessageSourse',
+                ],
+            ],
+        ],
     ),
     // application-level parameters that can be accessed
     // using Yii::app()->params['paramName']
@@ -101,4 +108,5 @@ return array(
         'adminEmail' => 'webmaster@example.com',
         'path' => '/uploads/',
     ),
+
 );
