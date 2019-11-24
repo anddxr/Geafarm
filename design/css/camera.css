@@ -15,7 +15,7 @@
 	padding: 0;
 	vertical-align: baseline;
 	list-style: none;
-    line-height: 0;
+    /* line-height: ; */
 }
 .camera_wrap {
 	display: none;
@@ -178,22 +178,7 @@
     margin-bottom:40px;
     letter-spacing:0;
 }
-.camera-caption a {
-    font:italic 300 21px 'Roboto';
-    color:#f9f5f2;
-    /* background:#218600; */
-    border-radius:6px;
-    padding:6px 13px 10px 14px;
-    /* border-bottom:4px solid #185F00; */
-    -webkit-transition: all 0.25s ease;
-    transition: all 0.25s ease;
-}
-.camera-caption a:hover {
-    background:#185F00;
-    border-bottom-color:#218600;
-    -webkit-transition: all 0.25s ease;
-    transition: all 0.25s ease;
-}
+
 .camera-caption a span {
     margin-left:8px;
     color:#f9f5f2;

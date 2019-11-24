@@ -3,6 +3,8 @@ $categories = Category::model()->findAll();
 $setting = Settings::model()->find();
 $page = Page::model()->find('code=:code', [':code' => Page::CODE_ABOUT]);
 
+$lang = $_GET["lang"];
+Yii::app()->setLanguage($lang);
 
 $criteria = new CDbCriteria;
 $criteria->compare('block', Product::BLOCK_DOWN, false, 'OR');
@@ -75,19 +77,24 @@ $productsDownBlock = Product::model()->findAll($criteria);
                             <nav class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
                                 <ul class="nav sf-menu clearfix">
                                     <li class="active"><a href="<?php echo Yii::app()->request->baseUrl; ?>"><?php echo Yii::t('index', 'Главная'); ?></a></li>
-                                    <li class="sub-menu"><a href="<?= Yii::app()->createAbsoluteUrl('site/category') ?>"><?php echo Yii::t('category', 'Товары и услуги'); ?><span></span></a>
+                                    <select onchange="top.location=this.value">
+                                <option value="none" hidden="">Выберите язык</option>
+                                <option value="/Geofarm/?lang=ua">Українська</option>
+                                <option value="/Geofarm/?lang=ru">Русский</option>
+                                </select>
+                                    <li class="sub-menu"><a href="<?= Yii::app()->createAbsoluteUrl('site/category/?lang') ?>"><?php echo Yii::t('category', 'Товары и услуги'); ?><span></span></a>
                                         <ul class="submenu">
                                             <?php if (!empty($categories)) { ?>
                                                 <?php foreach ($categories as $category) { ?>
-                                                    <li><a href="<?= Yii::app()->createAbsoluteUrl('site/product', ['cat_id' => $category->id]) ?>"><?= $category->title ?></a></li>
+                                                    <li><a href="<?= Yii::app()->createAbsoluteUrl('site/product/', ['cat_id' => $category->id]),'/?lang' ?>"><?= $category->title ?></a></li>
                                                 <?php } ?>
                                             <?php } ?>
                                         </ul>
                                     </li>
-                                    <li><a href="<?= Yii::app()->createAbsoluteUrl('site/page', ['id' => Page::model()->find('code=:code', [':code' => Page::CODE_ABOUT])->id]) ?>"><?php echo Yii::t('index', 'О нас'); ?></a></li>
-                                    <li><a href="<?= Yii::app()->createAbsoluteUrl('site/contact') ?>"><?php echo Yii::t('contact', 'Контакты'); ?></a></li>
+                                    <li><a href="<?= Yii::app()->createAbsoluteUrl('site/page/', ['id' => Page::model()->find('code=:code', [':code' => Page::CODE_ABOUT])->id]),'/?lang' ?>"><?php echo Yii::t('index', 'О нас'); ?></a></li>
+                                    <li><a href="<?= Yii::app()->createAbsoluteUrl('site/contact/?lang') ?>"><?php echo Yii::t('contact', 'Контакты'); ?></a></li>
                                 </ul>
-                                   
+                                
                             </nav>
                         </section>
                     </article>
