@@ -3,6 +3,10 @@
 /* @var $model LoginForm */
 /* @var $form CActiveForm  */
 
+<?php 
+$lang = $_GET["lang"];
+Yii::app()->setLanguage($lang);
+
 $this->pageTitle = Yii::app()->name . ' - Login';
 $this->breadcrumbs = array(
     'Login',

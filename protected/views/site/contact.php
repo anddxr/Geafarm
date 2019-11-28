@@ -1,3 +1,7 @@
+<?php 
+$lang = $_GET["lang"];
+Yii::app()->setLanguage($lang);
+?>
 <section class="formBox">
     <div class="container">
         <div class="row">

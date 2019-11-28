@@ -3,9 +3,8 @@ $categories = Category::model()->findAll();
 $setting = Settings::model()->find();
 $page = Page::model()->find('code=:code', [':code' => Page::CODE_ABOUT]);
 
-$lang = isset($_GET["lang"]);
+$lang = $_GET["lang"];
 Yii::app()->setLanguage($lang);
-$lang = isset($_GET['lang_option']);
 
 $criteria = new CDbCriteria;
 $criteria->compare('block', Product::BLOCK_DOWN, false, 'OR');
@@ -71,19 +70,19 @@ $productsDownBlock = Product::model()->findAll($criteria);
             <div class="container">
                 <div class="row">
                     <article class="col-lg-12 col-md-12 col-sm-12">
-                        <h1 class="navbar-brand navbar-brand_"><a href="<?= Yii::app()->homeUrl ?>"><img height="100" src="<?= $setting->logoUrl ?>" alt=""></a></h1>
+                        <h1 class="navbar-brand navbar-brand_"><a href="<?= Yii::app()->homeUrl ?>?lang"><img height="100" src="<?= $setting->logoUrl ?>" alt=""></a></h1>
                         <section>
                             <br><br><br>
                             <div class="clearfix"></div>
                             <nav class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
                                 <ul class="nav sf-menu clearfix">
                                     <li class="active"><a href="<?php echo Yii::app()->request->baseUrl; ?>"><?php echo Yii::t('index', 'Главная'); ?></a></li>
-                                <select onchange="top.location=this.value" name="lang_option">
+                                <select onchange="top.location=this.value" name="lang">
                                 <option value="none" hidden="">Выберите язык</option>
                                 <option value="?lang=ua">Українська</option>
                                 <option value="?lang=ru">Русский</option>
                                 </select>
-                                    <li class="sub-menu"><a href="<?= Yii::app()->createAbsoluteUrl('site/category/?lang') ?>"><?php echo Yii::t('category', 'Товары и услуги'); ?><span></span></a>
+                                    <li class="sub-menu"><a href="<?= Yii::app()->createAbsoluteUrl('site/category/?lang') ?>"><?php echo Yii::t('index', 'Товары и услуги'); ?><span></span></a>
                                         <ul class="submenu">
                                             <?php if (!empty($categories)) { ?>
                                                 <?php foreach ($categories as $category) { ?>

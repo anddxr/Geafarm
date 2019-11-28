@@ -3520,3 +3520,423 @@ Stack trace:
 REQUEST_URI=/Geofarm/undefined?1574608773766
 HTTP_REFERER=http://localhost/Geofarm/
 ---
+2019/11/27 06:38:15 [error] [php] Undefined index: lang (C:\Prog\UwAmp\www\Geofarm\protected\views\site\index.php:2)
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php(58): SiteController->render()
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Prog\UwAmp\www\Geofarm\index.php(20): CWebApplication->run()
+REQUEST_URI=/Geofarm/
+in C:\Prog\UwAmp\www\Geofarm\protected\views\site\index.php (2)
+in C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php (58)
+in C:\Prog\UwAmp\www\Geofarm\index.php (20)
+2019/11/27 06:38:16 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "undefined". in C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('undefined')
+#1 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\Prog\UwAmp\www\Geofarm\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/Geofarm/undefined?1574836696613
+HTTP_REFERER=http://localhost/Geofarm/
+---
+2019/11/27 06:39:04 [error] [php] Undefined index: lang (C:\Prog\UwAmp\www\Geofarm\protected\views\site\index.php:2)
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php(58): SiteController->render()
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Prog\UwAmp\www\Geofarm\index.php(20): CWebApplication->run()
+REQUEST_URI=/Geofarm/
+in C:\Prog\UwAmp\www\Geofarm\protected\views\site\index.php (2)
+in C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php (58)
+in C:\Prog\UwAmp\www\Geofarm\index.php (20)
+2019/11/27 06:39:04 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "undefined". in C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('undefined')
+#1 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\Prog\UwAmp\www\Geofarm\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/Geofarm/undefined?1574836744409
+HTTP_REFERER=http://localhost/Geofarm/
+---
+2019/11/27 06:40:27 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('page')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page/1/und...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(20): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/page/1/undefined?1574836827805
+HTTP_REFERER=http://localhost/Geofarm/site/page/1/?lang
+---
+2019/11/27 06:40:29 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('page')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page/1/und...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(20): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/page/1/undefined?1574836829928
+HTTP_REFERER=http://localhost/Geofarm/site/page/1/?lang=ua
+---
+2019/11/27 06:40:34 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product/2/...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(20): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product/2/undefined?1574836834404
+HTTP_REFERER=http://localhost/Geofarm/site/product/2/?lang
+---
+2019/11/27 06:40:55 [error] [php] Undefined index: lang (C:\Prog\UwAmp\www\Geofarm\protected\views\site\index.php:2)
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php(58): SiteController->render()
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Prog\UwAmp\www\Geofarm\index.php(20): CWebApplication->run()
+REQUEST_URI=/Geofarm/
+in C:\Prog\UwAmp\www\Geofarm\protected\views\site\index.php (2)
+in C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php (58)
+in C:\Prog\UwAmp\www\Geofarm\index.php (20)
+2019/11/27 06:40:55 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "undefined". in C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('undefined')
+#1 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\Prog\UwAmp\www\Geofarm\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/Geofarm/undefined?1574836855241
+HTTP_REFERER=http://localhost/Geofarm/
+---
+2019/11/27 11:17:38 [error] [php] Undefined index: lang (C:\Prog\UwAmp\www\Geofarm\protected\views\site\index.php:2)
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php(58): SiteController->render()
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Prog\UwAmp\www\Geofarm\index.php(20): CWebApplication->run()
+REQUEST_URI=/Geofarm/
+in C:\Prog\UwAmp\www\Geofarm\protected\views\site\index.php (2)
+in C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php (58)
+in C:\Prog\UwAmp\www\Geofarm\index.php (20)
+2019/11/27 11:17:38 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "undefined". in C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('undefined')
+#1 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\Prog\UwAmp\www\Geofarm\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/Geofarm/undefined?1574853458791
+HTTP_REFERER=http://localhost/Geofarm/
+---
+2019/11/27 11:32:13 [error] [php] Undefined index: lang (C:\Prog\UwAmp\www\Geofarm\protected\views\site\index.php:2)
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php(58): SiteController->render()
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Prog\UwAmp\www\Geofarm\index.php(20): CWebApplication->run()
+REQUEST_URI=/Geofarm/
+in C:\Prog\UwAmp\www\Geofarm\protected\views\site\index.php (2)
+in C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php (58)
+in C:\Prog\UwAmp\www\Geofarm\index.php (20)
+2019/11/27 11:32:27 [error] [php] Undefined index: lang (C:\Prog\UwAmp\www\Geofarm\protected\views\site\index.php:2)
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php(58): SiteController->render()
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Prog\UwAmp\www\Geofarm\index.php(20): CWebApplication->run()
+REQUEST_URI=/Geofarm/
+in C:\Prog\UwAmp\www\Geofarm\protected\views\site\index.php (2)
+in C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php (58)
+in C:\Prog\UwAmp\www\Geofarm\index.php (20)
+2019/11/27 11:32:46 [error] [php] Undefined index: lang (C:\Prog\UwAmp\www\Geofarm\protected\views\site\index.php:2)
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php(58): SiteController->render()
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Prog\UwAmp\www\Geofarm\index.php(20): CWebApplication->run()
+REQUEST_URI=/Geofarm/
+in C:\Prog\UwAmp\www\Geofarm\protected\views\site\index.php (2)
+in C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php (58)
+in C:\Prog\UwAmp\www\Geofarm\index.php (20)
+2019/11/27 12:00:07 [error] [php] Undefined index: lang (C:\Prog\UwAmp\www\Geofarm\protected\views\site\index.php:2)
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php(58): SiteController->render()
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Prog\UwAmp\www\Geofarm\index.php(20): CWebApplication->run()
+REQUEST_URI=/Geofarm/
+in C:\Prog\UwAmp\www\Geofarm\protected\views\site\index.php (2)
+in C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php (58)
+in C:\Prog\UwAmp\www\Geofarm\index.php (20)
+2019/11/27 12:04:29 [error] [php] Undefined index: lang (C:\Prog\UwAmp\www\Geofarm\protected\views\layouts\mainDesign.php:6)
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(784): SiteController->renderFile()
+#1 C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php(96): SiteController->render()
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\Prog\UwAmp\www\Geofarm\index.php(20): CWebApplication->run()
+REQUEST_URI=/Geofarm/site/contact
+in C:\Prog\UwAmp\www\Geofarm\protected\views\layouts\mainDesign.php (6)
+in C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php (96)
+in C:\Prog\UwAmp\www\Geofarm\index.php (20)
+2019/11/27 12:04:42 [error] [php] Undefined index: lang (C:\Prog\UwAmp\www\Geofarm\protected\views\layouts\mainDesign.php:6)
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(784): SiteController->renderFile()
+#1 C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php(96): SiteController->render()
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\Prog\UwAmp\www\Geofarm\index.php(20): CWebApplication->run()
+REQUEST_URI=/Geofarm/site/contact
+in C:\Prog\UwAmp\www\Geofarm\protected\views\layouts\mainDesign.php (6)
+in C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php (96)
+in C:\Prog\UwAmp\www\Geofarm\index.php (20)
+2019/11/27 12:05:30 [error] [php] Undefined index: lang (C:\Prog\UwAmp\www\Geofarm\protected\views\layouts\mainDesign.php:6)
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(784): SiteController->renderFile()
+#1 C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php(34): SiteController->render()
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CInlineAction.php(49): SiteController->actionCategory()
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\Prog\UwAmp\www\Geofarm\index.php(20): CWebApplication->run()
+REQUEST_URI=/Geofarm/site/category
+in C:\Prog\UwAmp\www\Geofarm\protected\views\layouts\mainDesign.php (6)
+in C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php (34)
+in C:\Prog\UwAmp\www\Geofarm\index.php (20)
+2019/11/27 12:10:30 [error] [php] Undefined index: lang (C:\Prog\UwAmp\www\Geofarm\protected\views\layouts\mainDesign.php:6)
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(784): SiteController->renderFile()
+#1 C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php(96): SiteController->render()
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\Prog\UwAmp\www\Geofarm\index.php(20): CWebApplication->run()
+REQUEST_URI=/Geofarm/site/contact
+in C:\Prog\UwAmp\www\Geofarm\protected\views\layouts\mainDesign.php (6)
+in C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php (96)
+in C:\Prog\UwAmp\www\Geofarm\index.php (20)
+2019/11/27 12:16:28 [error] [php] Undefined index: lang (C:\Prog\UwAmp\www\Geofarm\protected\views\layouts\mainDesign.php:6)
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(784): SiteController->renderFile()
+#1 C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php(44): SiteController->render()
+#2 unknown(0): SiteController->actionPage()
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#5 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\Prog\UwAmp\www\Geofarm\index.php(20): CWebApplication->run()
+REQUEST_URI=/Geofarm/site/page/1
+in C:\Prog\UwAmp\www\Geofarm\protected\views\layouts\mainDesign.php (6)
+in C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php (44)
+in C:\Prog\UwAmp\www\Geofarm\index.php (20)
+2019/11/27 12:16:35 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('page')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(20): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/page/
+---
+2019/11/27 12:24:56 [error] [php] Undefined index: lang (C:\Prog\UwAmp\www\Geofarm\protected\views\site\contact.php:2)
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php(96): SiteController->render()
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Prog\UwAmp\www\Geofarm\index.php(20): CWebApplication->run()
+REQUEST_URI=/Geofarm/site/contact/undefined?1574857494664
+in C:\Prog\UwAmp\www\Geofarm\protected\views\site\contact.php (2)
+in C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php (96)
+in C:\Prog\UwAmp\www\Geofarm\index.php (20)
+2019/11/27 12:25:21 [error] [php] Undefined index: lang (C:\Prog\UwAmp\www\Geofarm\protected\views\site\contact.php:2)
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php(96): SiteController->render()
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Prog\UwAmp\www\Geofarm\index.php(20): CWebApplication->run()
+REQUEST_URI=/Geofarm/site/contact/undefined?1574857521729
+in C:\Prog\UwAmp\www\Geofarm\protected\views\site\contact.php (2)
+in C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php (96)
+in C:\Prog\UwAmp\www\Geofarm\index.php (20)
+2019/11/27 12:25:52 [error] [php] Undefined index: lang (C:\Prog\UwAmp\www\Geofarm\protected\views\site\contact.php:2)
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php(96): SiteController->render()
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Prog\UwAmp\www\Geofarm\index.php(20): CWebApplication->run()
+REQUEST_URI=/Geofarm/site/contact/undefined?1574857552109
+in C:\Prog\UwAmp\www\Geofarm\protected\views\site\contact.php (2)
+in C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php (96)
+in C:\Prog\UwAmp\www\Geofarm\index.php (20)
+2019/11/27 12:29:19 [error] [php] Undefined index: lang (C:\Prog\UwAmp\www\Geofarm\protected\views\site\contact.php:2)
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php(96): SiteController->render()
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Prog\UwAmp\www\Geofarm\index.php(20): CWebApplication->run()
+REQUEST_URI=/Geofarm/site/contact/undefined?1574857759529
+in C:\Prog\UwAmp\www\Geofarm\protected\views\site\contact.php (2)
+in C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php (96)
+in C:\Prog\UwAmp\www\Geofarm\index.php (20)
+2019/11/27 12:29:37 [error] [php] Undefined index: lang (C:\Prog\UwAmp\www\Geofarm\protected\views\site\category.php:2)
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php(34): SiteController->render()
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CInlineAction.php(49): SiteController->actionCategory()
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Prog\UwAmp\www\Geofarm\index.php(20): CWebApplication->run()
+REQUEST_URI=/Geofarm/site/category/undefined?1574857777874
+in C:\Prog\UwAmp\www\Geofarm\protected\views\site\category.php (2)
+in C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php (34)
+in C:\Prog\UwAmp\www\Geofarm\index.php (20)
+2019/11/27 12:29:41 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('page')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page/1/und...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(20): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/page/1/undefined?1574857781022
+HTTP_REFERER=http://localhost/Geofarm/site/page/1/?lang
+---
+2019/11/27 12:29:44 [error] [php] Undefined index: lang (C:\Prog\UwAmp\www\Geofarm\protected\views\site\contact.php:2)
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php(96): SiteController->render()
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\Prog\UwAmp\www\Geofarm\index.php(20): CWebApplication->run()
+REQUEST_URI=/Geofarm/site/contact/undefined?1574857784096
+in C:\Prog\UwAmp\www\Geofarm\protected\views\site\contact.php (2)
+in C:\Prog\UwAmp\www\Geofarm\protected\controllers\SiteController.php (96)
+in C:\Prog\UwAmp\www\Geofarm\index.php (20)
