@@ -3,7 +3,16 @@ $categories = Category::model()->findAll();
 $setting = Settings::model()->find();
 $page = Page::model()->find('code=:code', [':code' => Page::CODE_ABOUT]);
 
-$lang = $_GET["lang"];
+$lang='ru';
+
+if(isset($_GET['lang']) && $_GET['lang'] !== ''){
+    $lang = $_GET['lang'];
+    setcookie('lang', $lang, time()+3600, '/');
+} else {
+    if(isset($_COOKIE['lang']) && $_COOKIE['lang'] !== ''){
+     $lang = $_COOKIE['lang'];
+    }
+}
 Yii::app()->setLanguage($lang);
 
 $criteria = new CDbCriteria;
@@ -77,16 +86,25 @@ $productsDownBlock = Product::model()->findAll($criteria);
                             <nav class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
                                 <ul class="nav sf-menu clearfix">
                                     <li class="active"><a href="<?php echo Yii::app()->request->baseUrl; ?>"><?php echo Yii::t('index', 'Главная'); ?></a></li>
-                                <select onchange="top.location=this.value" name="lang">
-                                <option value="none" hidden="">Выберите язык</option>
-                                <option value="?lang=ua">Українська</option>
-                                <option value="?lang=ru">Русский</option>
-                                </select>
+                                
+                                    <select onchange="top.location=this.value" name="lang">
+                                    <option value="none" hidden=""><?php echo Yii::t('index', 'Выберите язык'); ?></option>
+                                    <option value="?lang=ua">Українська</option>
+                                    <option value="?lang=ru">Русский</option>
+                                    </select>
+                                
                                     <li class="sub-menu"><a href="<?= Yii::app()->createAbsoluteUrl('site/category/?lang') ?>"><?php echo Yii::t('index', 'Товары и услуги'); ?><span></span></a>
                                         <ul class="submenu">
                                             <?php if (!empty($categories)) { ?>
                                                 <?php foreach ($categories as $category) { ?>
-                                                    <li><a href="<?= Yii::app()->createAbsoluteUrl('site/product/', ['cat_id' => $category->id]),'/?lang' ?>"><?= $category->title ?></a></li>
+                                                    <li><a href="<?= Yii::app()->createAbsoluteUrl('site/product/', ['cat_id' => $category->id]),'/?lang' ?>"><?php
+                                if($lang=='ua'){
+                                    echo $category->titleUA;
+                                }elseif($lang=='ru'){
+                                    echo $category->title;
+                                }else{
+                                    echo 'error!';  
+                                };?></a></li>
                                                 <?php } ?>
                                             <?php } ?>
                                         </ul>
@@ -136,7 +154,14 @@ $productsDownBlock = Product::model()->findAll($criteria);
                                         <article class="col-lg-6 col-md-6 col-sm-6">
                                             <ul>
                                             <?php } ?>
-                                            <li><a href="<?= Yii::app()->createAbsoluteUrl('site/product_view', ['id' => $product->id]) ?>"><?= $product->title ?></a></li>
+                                            <li><a href="<?= Yii::app()->createAbsoluteUrl('site/product_view', ['id' => $product->id]),'/?lang' ?>"><?php
+                                if($lang=='ua'){
+                                    echo $product->titleUA;
+                                }elseif($lang=='ru'){
+                                    echo $product->title;
+                                }else{
+                                    echo 'error!';  
+                                };?></a></li>
 
                                             <?php if ($key == 6) { ?>
                                             </ul>
@@ -150,7 +175,14 @@ $productsDownBlock = Product::model()->findAll($criteria);
                         </article>
                         <article class="col-lg-7 col-md-6 col-sm-6 col-lg-offset-1 newslatter-form">
                             <h3><?php echo Yii::t('index', 'Проверенные решения по справедливой стоимости'); ?></h3>
-                            <p><?= $page->little_description ?><a href="<?= Yii::app()->createAbsoluteUrl('site/page', ['id' => $page->id]) ?>">[ <?php echo Yii::t('index', 'подробнее '); ?> ]</a></p>
+                            <p><?php
+                                if($lang=='ua'){
+                                    echo $page->little_descriptionUA;
+                                }elseif($lang=='ru'){
+                                    echo $page->little_description;
+                                }else{
+                                    echo 'error!';  
+                                };?><a href="<?= Yii::app()->createAbsoluteUrl('site/page', ['id' => $page->id]),'/?lang' ?>">[ <?php echo Yii::t('index', 'подробнее '); ?> ]</a></p>
 
                         </article>
                     </div>

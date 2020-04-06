@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ERROR | E_WARNING | E_PARSE);
 ini_set('displey_errors',1);
 ini_set('displey_sturtup_errors',1);
 error_reporting(E-ALL);

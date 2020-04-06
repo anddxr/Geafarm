@@ -8,7 +8,9 @@
  * @property string $code
  * @property string $image
  * @property string $description
+ * @property string $descriptionUA
  * @property string $little_description
+ * @property string $little_descriptionUA
  */
 class Page extends CActiveRecord
 {
@@ -30,11 +32,11 @@ class Page extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('code, image', 'length', 'max'=>255),
-			array('little_description', 'length'),
-			array('description', 'safe'),
+			array('little_description', 'little_descriptionUA', 'length'),
+			array('description', 'descriptionUA', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, code, image, description, little_description', 'safe', 'on'=>'search'),
+			array('id, code, image, description, descriptionUA, little_description, little_descriptionUA', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -59,7 +61,9 @@ class Page extends CActiveRecord
 			'code' => 'Код',
 			'image' => 'Картинка',
 			'description' => 'Полное описание',
+			'descriptionUA' => 'Полное описаниеUA',
 			'little_description' => 'Короткое описание',
+			'little_descriptionUA' => 'Короткое описаниеUA',
 		);
 	}
 
@@ -85,7 +89,9 @@ class Page extends CActiveRecord
 		$criteria->compare('code',$this->code,true);
 		$criteria->compare('image',$this->image,true);
 		$criteria->compare('description',$this->description,true);
+		$criteria->compare('descriptionUA',$this->descriptionUA,true);
 		$criteria->compare('little_description',$this->little_description,true);
+		$criteria->compare('little_descriptionUA',$this->little_descriptionUA,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
