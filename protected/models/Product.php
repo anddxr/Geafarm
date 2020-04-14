@@ -8,8 +8,11 @@
  * @property integer $category_id
  * @property string $image
  * @property string $title
+ * @property string $titleUA
  * @property string $description
+ * @property string $descriptionUA
  * @property string $little_description
+ * @property string $little_descriptionUA
  *
  * The followings are the available model relations:
  * @property Categories $category
@@ -39,11 +42,11 @@ class Product extends CActiveRecord
         // will receive user inputs.
         return array(
             array('category_id, block', 'numerical', 'integerOnly' => true),
-            array('image, title, little_description', 'length', 'max' => 255),
+            array('image, title, titleUA, little_description, little_descriptionUA', 'length', 'max' => 255),
             array('description', 'safe'),
             // The following rule is used by search().
             // @todo Please remove those attributes that should not be searched.
-            array('id, category_id, image, title, description, little_description, block', 'safe', 'on' => 'search'),
+            array('id, category_id, image, title, titleUA, description, descriptionUA, little_description, little_descriptionUA, block', 'safe', 'on' => 'search'),
         );
     }
 
@@ -70,8 +73,11 @@ class Product extends CActiveRecord
             'block' => 'Блок',
             'image' => 'Картинка',
             'title' => 'Название',
+            'titleUA' => 'НазваниеUA',
             'description' => 'Полное описание',
+            'descriptionUA' => 'Полное описаниеUA',
             'little_description' => 'Короткое описание',
+            'little_descriptionUA' => 'Короткое описаниеUA',
         );
     }
 
@@ -112,9 +118,12 @@ class Product extends CActiveRecord
         $criteria->compare('block', $this->block);
         $criteria->compare('image', $this->image, true);
         $criteria->compare('title', $this->title, true);
+        $criteria->compare('titleUA', $this->titleUA, true);
         $criteria->compare('description', $this->description, true);
+        $criteria->compare('descriptionUA', $this->descriptionUA, true);
         $criteria->compare('little_description', $this->little_description, true);
-
+        $criteria->compare('little_descriptionUA', $this->little_descriptionUA, true);
+        
         return new CActiveDataProvider($this, array(
             'criteria' => $criteria,
         ));

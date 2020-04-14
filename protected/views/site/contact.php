@@ -1,5 +1,14 @@
 <?php 
-$lang = $_GET["lang"];
+$lang='ru';
+
+if(isset($_GET['lang']) && $_GET['lang'] !== ''){
+    $lang = $_GET['lang'];
+    setcookie('lang', $lang, time()+3600, '/');
+} else {
+    if(isset($_COOKIE['lang']) && $_COOKIE['lang'] !== ''){
+     $lang = $_COOKIE['lang'];
+    }
+}
 Yii::app()->setLanguage($lang);
 ?>
 <section class="formBox">

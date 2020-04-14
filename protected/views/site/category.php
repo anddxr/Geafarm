@@ -1,5 +1,14 @@
 <?php 
-$lang = $_GET["lang"];
+$lang='ru';
+
+if(isset($_GET['lang']) && $_GET['lang'] !== ''){
+    $lang = $_GET['lang'];
+    setcookie('lang', $lang, time()+3600, '/');
+} else {
+    if(isset($_COOKIE['lang']) && $_COOKIE['lang'] !== ''){
+     $lang = $_COOKIE['lang'];
+    }
+}
 Yii::app()->setLanguage($lang);
 ?>
 <div class="container">
@@ -12,11 +21,11 @@ Yii::app()->setLanguage($lang);
                     <article class="col-lg-6 col-md-6 col-sm-6">
                         <div class="thumb-pad1">
                             <div class="thumbnail">
-                                <figure><img src="<?= $model->imageUrl ?>" alt=""></figure>
+                                <figure><a href="<?= Yii::app()->createAbsoluteUrl('site/product', ['cat_id' => $model->id]),'/?lang' ?>"> <img src="<?= $model->imageUrl ?>" alt=""></a></figure>
                                 <div class="caption">
-                                    <p class="title"><?= $model->title ?></p>
+                                <a href="<?= Yii::app()->createAbsoluteUrl('site/product', ['cat_id' => $model->id]),'/?lang' ?>"><p class="title"><?= $model->title ?></p></a>
                                     <p><?= $model->description ?></p>
-                                    <a href="<?= Yii::app()->createAbsoluteUrl('site/product', ['cat_id' => $model->id]) ?>" class="btn btn-success"><?php echo Yii::t('category', 'подробнее '); ?><!--подробнее --><span class="fa fa-angle-double-right"></span></a>
+                                    <a href="<?= Yii::app()->createAbsoluteUrl('site/product', ['cat_id' => $model->id]),'/?lang' ?>" class="btn btn-success"><?php echo Yii::t('category', 'подробнее '); ?><!--подробнее --><span class="fa fa-angle-double-right"></span></a>
                                 </div>
 
 

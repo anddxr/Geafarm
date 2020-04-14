@@ -99,7 +99,8 @@ nav.tm_navbar li {
 	line-height: 30px;
 	padding: 0;
 	position: relative;
-	margin-left: 28px;
+	margin-left: 14px;
+	margin-right:14px;
 }
 nav.tm_navbar li:first-child {
 	margin-left: 0;

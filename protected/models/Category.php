@@ -6,6 +6,8 @@
  * The followings are the available columns in table 'categories':
  * @property integer $id
  * @property string $title
+ * @property string $titleUA
+ * @property string $slider_title
  *
  * The followings are the available model relations:
  * @property Products[] $products
@@ -29,12 +31,12 @@ class Category extends CActiveRecord
         // NOTE: you should only define rules for those attributes that
         // will receive user inputs.
         return array(
-            array('title, description', 'required'),
-            array('title, image, slider_title', 'length', 'max' => 255),
+            array('title, titleUA, description', 'required'),
+            array('title, titleUa, image, slider_title', 'length', 'max' => 255),
             array('description', 'length'),
             // The following rule is used by search().
             // @todo Please remove those attributes that should not be searched.
-            array('id, title', 'safe', 'on' => 'search'),
+            array('id, title, titleUA', 'safe', 'on' => 'search'),
         );
     }
 
@@ -58,9 +60,12 @@ class Category extends CActiveRecord
         return array(
             'id' => 'ID',
             'title' => 'Название',
+            'titleUA' => 'НазваниеUA',
             'image' => 'Картинка',
             'slider_title' => 'Короткое описание',
+            'slider_titleUA' => 'Короткое описаниеUA',
             'description' => 'Полное описание',
+            'descriptionUA' => 'Полное описаниеUA',
         );
     }
 
@@ -93,8 +98,10 @@ class Category extends CActiveRecord
 
         $criteria->compare('id', $this->id);
         $criteria->compare('title', $this->title, true);
+        $criteria->compare('titleUA', $this->titleUA, true);
         $criteria->compare('slider_title', $this->slider_title, true);
         $criteria->compare('description', $this->description, true);
+        $criteria->compare('descriptionUA', $this->descriptionUA, true);
         $criteria->compare('image', $this->image, true);
 
         return new CActiveDataProvider($this, array(
