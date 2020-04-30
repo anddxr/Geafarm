@@ -32,7 +32,7 @@ class Page extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('code, image', 'length', 'max'=>255),
-			array('little_description'/*, 'little_descriptionUA'*/, 'length'),
+			array('little_description', 'length'),
 			array('description', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.

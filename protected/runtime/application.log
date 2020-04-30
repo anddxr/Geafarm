@@ -14174,3 +14174,484 @@ Stack trace:
 REQUEST_URI=/Geofarm/admin/page/update/id/undefined?1586872568555
 HTTP_REFERER=http://localhost/Geofarm/admin/page/update/id/admin
 ---
+2020/04/26 11:17:26 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product/2/...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product/2/undefined?1587899846607
+HTTP_REFERER=http://localhost/Geofarm/site/product/2/?lang
+---
+2020/04/26 13:32:54 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/27/undefined?1587907974019
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/27/?lang
+---
+2020/04/27 11:06:26 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/37/undefined?1587985586578
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/37/?lang
+---
+2020/04/27 11:06:33 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/30/undefined?1587985593463
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/30/?lang
+---
+2020/04/27 11:06:47 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/29/undefined?1587985607913
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/29/?lang
+---
+2020/04/27 11:07:04 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/3/undefined?1587985624153
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/3/?lang
+---
+2020/04/27 11:07:09 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/27/undefined?1587985629929
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/27/?lang
+---
+2020/04/27 11:07:31 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/28/undefined?1587985651749
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/28/?lang
+---
+2020/04/27 11:07:44 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/29/undefined?1587985664079
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/29/?lang
+---
+2020/04/27 11:08:00 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/30/undefined?1587985680179
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/30/?lang
+---
+2020/04/27 11:08:12 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/37/undefined?1587985692490
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/37/?lang
+---
+2020/04/27 11:19:57 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/3/undefined?1587986397043
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/3/?lang
+---
+2020/04/27 11:20:00 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product/2/...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product/2/undefined?1587986400420
+HTTP_REFERER=http://localhost/Geofarm/site/product/2/?lang
+---
+2020/04/27 11:20:09 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/31/undefined?1587986409094
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/31/?lang
+---
+2020/04/27 11:20:26 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/31/undefined?1587986426900
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/31/?lang=ru
+---
+2020/04/27 11:20:36 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/31/undefined?1587986436135
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/31/?lang=ua
+---
+2020/04/27 11:21:09 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/31/undefined?1587986469756
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/31/?lang=ru
+---
+2020/04/27 11:21:22 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/31/undefined?1587986482428
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/31/?lang=ua
+---
+2020/04/27 11:21:25 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product/2/...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product/2/undefined?1587986485158
+HTTP_REFERER=http://localhost/Geofarm/site/product/2/?lang
+---
+2020/04/27 11:32:41 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product/2/...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product/2/undefined?1587987161920
+HTTP_REFERER=http://localhost/Geofarm/site/product/2/?lang
+---
+2020/04/27 11:32:56 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/36/undefined?1587987176635
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/36/?lang
+---
+2020/04/27 11:33:36 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product/2/...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product/2/undefined?1587987216314
+HTTP_REFERER=http://localhost/Geofarm/site/product/2/?lang
+---
+2020/04/27 11:33:51 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product/3/...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product/3/undefined?1587987231274
+HTTP_REFERER=http://localhost/Geofarm/site/product/3/?lang
+---
+2020/04/27 11:33:59 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product/4/...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product/4/undefined?1587987239173
+HTTP_REFERER=http://localhost/Geofarm/site/product/4/?lang
+---
+2020/04/27 11:34:09 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product/3/...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product/3/undefined?1587987249292
+HTTP_REFERER=http://localhost/Geofarm/site/product/3/?lang
+---
+2020/04/27 11:34:12 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product/2/...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product/2/undefined?1587987252447
+HTTP_REFERER=http://localhost/Geofarm/site/product/2/?lang
+---
+2020/04/27 11:34:16 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product/2/...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product/2/undefined?1587987256669
+HTTP_REFERER=http://localhost/Geofarm/site/product/2/?lang
+---
+2020/04/27 12:06:36 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product/2/...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product/2/undefined?1587989196125
+HTTP_REFERER=http://localhost/Geofarm/site/product/2/?lang
+---
+2020/04/27 12:07:08 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product/3/...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product/3/undefined?1587989228158
+HTTP_REFERER=http://localhost/Geofarm/site/product/3/?lang
+---
+2020/04/27 12:07:10 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product/4/...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product/4/undefined?1587989230728
+HTTP_REFERER=http://localhost/Geofarm/site/product/4/?lang
+---
+2020/04/27 12:07:13 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('page')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page/1/und...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/page/1/undefined?1587989233729
+HTTP_REFERER=http://localhost/Geofarm/site/page/1/?lang
+---
+2020/04/27 12:07:24 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product/2/...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product/2/undefined?1587989244032
+HTTP_REFERER=http://localhost/Geofarm/site/product/2/?lang
+---
+2020/04/27 12:07:28 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/37/undefined?1587989247989
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/37/?lang
+---
+2020/04/27 12:07:34 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/40/undefined?1587989254449
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/40/?lang
+---
+2020/04/27 12:07:43 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/39/undefined?1587989263047
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/39/?lang
+---
+2020/04/27 12:07:56 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/38/undefined?1587989276717
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/38/?lang
+---
+2020/04/27 12:10:11 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
+Stack trace:
+#0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(282): CController->run('product_view')
+#4 C:\Prog\UwAmp\www\Geofarm\framework\web\CWebApplication.php(141): CWebApplication->runController('site/product_vi...')
+#5 C:\Prog\UwAmp\www\Geofarm\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\Prog\UwAmp\www\Geofarm\index.php(21): CApplication->run()
+#7 {main}
+REQUEST_URI=/Geofarm/site/product_view/30/undefined?1587989411347
+HTTP_REFERER=http://localhost/Geofarm/site/product_view/30/?lang
+---
