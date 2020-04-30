@@ -24,7 +24,11 @@
                 <p class="help-block"><?php echo $form->error($model, 'little_description'); ?></p>
             </div>
 
-
+            <div class="form-group">
+                <?php echo $form->labelEx($model, 'little_descriptionUA'); ?>
+                <?php echo $form->textField($model, 'little_descriptionUA', ['class' => 'form-control']); ?>
+                <p class="help-block"><?php echo $form->error($model, 'little_descriptionUA'); ?></p>
+            </div>
 
             <div class="form-group">
                 <?php echo $form->labelEx($model, 'description'); ?>
@@ -36,6 +40,18 @@
                 ));
                 ?>
                 <p class="help-block"><?php echo $form->error($model, 'description'); ?></p>
+            </div>
+
+            <div class="form-group">
+                <?php echo $form->labelEx($model, 'descriptionUA'); ?>
+
+                <?php
+                $this->widget('application.extensions.eckeditor.ECKEditor', array(
+                    'model' => $model,
+                    'attribute' => 'descriptionUA',
+                ));
+                ?>
+                <p class="help-block"><?php echo $form->error($model, 'descriptionUA'); ?></p>
             </div>
 
             <button class="btn btn-default" type="submit"><?= $model->isNewRecord ? 'Создать' : 'Сохранить' ?></button>

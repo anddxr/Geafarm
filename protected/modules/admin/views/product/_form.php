@@ -43,6 +43,12 @@
                 <p class="help-block"><?php echo $form->error($model, 'title'); ?></p>
             </div>
 
+            <div class="form-group">
+                <?php echo $form->labelEx($model, 'titleUA'); ?>
+                <?php echo $form->textField($model, 'titleUA', ['class' => 'form-control']); ?>
+                <p class="help-block"><?php echo $form->error($model, 'titleUA'); ?></p>
+            </div>
+
 
             <div class="form-group">
                 <?php echo $form->labelEx($model, 'little_description'); ?>
@@ -50,6 +56,11 @@
                 <p class="help-block"><?php echo $form->error($model, 'little_description'); ?></p>
             </div>
 
+            <div class="form-group">
+                <?php echo $form->labelEx($model, 'little_descriptionUA'); ?>
+                <?php echo $form->textField($model, 'little_descriptionUA', ['class' => 'form-control']); ?>
+                <p class="help-block"><?php echo $form->error($model, 'little_descriptionUA'); ?></p>
+            </div>
 
             <div class="form-group">
                 <?php echo $form->labelEx($model, 'description'); ?>
@@ -64,6 +75,18 @@
                 <p class="help-block"><?php echo $form->error($model, 'description'); ?></p>
             </div>
 
+            <div class="form-group">
+                <?php echo $form->labelEx($model, 'descriptionUA'); ?>
+
+                <?php
+                $this->widget('application.extensions.eckeditor.ECKEditor', array(
+                    'model' => $model,
+                    'attribute' => 'descriptionUA',
+                ));
+
+                ?>
+                <p class="help-block"><?php echo $form->error($model, 'descriptionUA'); ?></p>
+            </div>
 
             <div class="form-group">
                 <?php echo $form->labelEx($model, 'block'); ?>
