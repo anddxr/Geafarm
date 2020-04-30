@@ -34,6 +34,11 @@
                 <?php echo $form->textField($model, 'title', ['class' => 'form-control']); ?>
                 <p class="help-block"><?php echo $form->error($model, 'title'); ?></p>
             </div>
+            <div class="form-group">
+                <?php echo $form->labelEx($model, 'titleUA'); ?>
+                <?php echo $form->textField($model, 'titleUA', ['class' => 'form-control']); ?>
+                <p class="help-block"><?php echo $form->error($model, 'titleUA'); ?></p>
+            </div>
 
 
             <div class="form-group">
@@ -41,6 +46,12 @@
                 <?php echo $form->textField($model, 'slider_title', ['class' => 'form-control']); ?>
                 <p class="help-block"><?php echo $form->error($model, 'slider_title'); ?></p>
             </div>
+            <div class="form-group">
+                <?php echo $form->labelEx($model, 'slider_tittleUA'); ?>
+                <?php echo $form->textField($model, 'slider_tittleUA', ['class' => 'form-control']); ?>
+                <p class="help-block"><?php echo $form->error($model, 'slider_tittleUA'); ?></p>
+            </div>
+
             <div class="form-group">
                 <?php echo $form->labelEx($model, 'description'); ?>
 
@@ -52,6 +63,18 @@
 
                 ?>
                 <p class="help-block"><?php echo $form->error($model, 'description'); ?></p>
+            </div>
+            <div class="form-group">
+                <?php echo $form->labelEx($model, 'descriptionUA'); ?>
+
+                <?php
+                $this->widget('application.extensions.eckeditor.ECKEditor', array(
+                    'model' => $model,
+                    'attribute' => 'descriptionUA',
+                ));
+
+                ?>
+                <p class="help-block"><?php echo $form->error($model, 'descriptionUA'); ?></p>
             </div>
 
 
