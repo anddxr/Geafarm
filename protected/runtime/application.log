@@ -14174,6 +14174,7 @@ Stack trace:
 REQUEST_URI=/Geofarm/admin/page/update/id/undefined?1586872568555
 HTTP_REFERER=http://localhost/Geofarm/admin/page/update/id/admin
 ---
+<<<<<<< HEAD
 2020/04/26 11:17:26 [error] [exception.CHttpException.400] CHttpException: Некорректный запрос. in C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php:336
 Stack trace:
 #0 C:\Prog\UwAmp\www\Geofarm\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
@@ -14655,3 +14656,5 @@ Stack trace:
 REQUEST_URI=/Geofarm/site/product_view/30/undefined?1587989411347
 HTTP_REFERER=http://localhost/Geofarm/site/product_view/30/?lang
 ---
+=======
+>>>>>>> 8cfe8d83f4311e129b1f62a9b56431535ba0f0f8
