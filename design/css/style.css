@@ -1117,6 +1117,7 @@ footer.marg {
 	border-top: 2px solid #e3dacc;
 }
 .thumb-pad1 {
+	max-height: 490px;
 	overflow: hidden;
 	padding: 39px 39px 43px 39px;
 	background: #f2efeb;
@@ -2955,6 +2956,7 @@ footer.marg {
  display: none;
 }
  .thumb-pad1 {
+ max-height: 490px;
  margin-bottom: 30px;
  padding: 15px;
 }
