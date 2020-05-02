@@ -1117,7 +1117,15 @@ footer.marg {
 	border-top: 2px solid #e3dacc;
 }
 .thumb-pad1 {
-	max-height: 490px;
+	max-height: 490;
+	overflow: hidden;
+	padding: 39px 39px 43px 39px;
+	background: #f2efeb;
+	border-radius: 7px;
+	margin-bottom: 16px;
+}
+.thumb-pad2 {
+	max-height: 580px;
 	overflow: hidden;
 	padding: 39px 39px 43px 39px;
 	background: #f2efeb;
@@ -1154,10 +1162,16 @@ footer.marg {
 	height: 62px;
 }
 .thumb-pad1 .thumbnail .caption {
+	max-height: 500px;
 	padding: 0;
 	overflow: hidden;
 }
 .thumb-pad1 .thumbnail .caption .title {
+	font: bold 22px/24px 'Roboto';
+	color: #2f2e2c;
+	margin-bottom: 14px;
+}
+.thumb-pad2 .thumbnail .caption .title {
 	font: bold 22px/24px 'Roboto';
 	color: #2f2e2c;
 	margin-bottom: 14px;
@@ -1167,12 +1181,17 @@ footer.marg {
 	color: #2f2e2c;
 	margin-bottom: 22px;
 }
+.thumb-pad2 .thumbnail .caption p {
+	font: 14px/16px 'Roboto';
+	color: #2f2e2c;
+	margin-bottom: 22px;
+}
 .thumb-pad1 .thumbnail .caption p span {
 	color: #218600;
 }
 .thumb-pad2 {
 	overflow: hidden;
-	padding: 0;
+	/* padding: 0; */
 	background: #f2efeb;
 	border-radius: 7px;
 }
@@ -1206,14 +1225,14 @@ footer.marg {
 	height: 62px;
 }
 .thumb-pad2 .thumbnail .caption {
-	padding: 0 39px 30px 39px;
+	/* padding: 0 39px 30px 39px; */
 	overflow: hidden;
 }
 .thumb-pad2 .thumbnail .caption h3 {
 	margin-bottom: 29px;
 }
 .thumb-pad2 .thumbnail .caption p {
-	font: 18px/30px 'Roboto';
+	font: 14px/16px 'Roboto';
 	color: #2f2e2c;
 	margin-bottom: 22px;
 }

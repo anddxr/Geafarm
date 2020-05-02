@@ -19,7 +19,7 @@ Yii::app()->setLanguage($lang);
 
                 <?php foreach ($models as $model) { ?>
                     <article class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="thumb-pad1">
+                        <div class="thumb-pad2">
                             <div class="thumbnail">
                                 <figure><a href="<?= Yii::app()->createAbsoluteUrl('site/product', ['cat_id' => $model->id]),'/?lang' ?>"> <img src="<?= $model->imageUrl ?>" alt=""></a></figure>
                                 <div class="caption">
