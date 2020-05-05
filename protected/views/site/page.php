@@ -22,8 +22,6 @@ Yii::app()->setLanguage($lang);
                     echo $model->descriptionUA;
                 }elseif($lang=='ru'){
                     echo $model->description;
-                }else{
-                    echo 'error!';  
                 };?>
             </div>
         </article>

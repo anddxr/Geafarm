@@ -23,8 +23,20 @@ Yii::app()->setLanguage($lang);
                             <div class="thumbnail">
                                 <figure><a href="<?= Yii::app()->createAbsoluteUrl('site/product', ['cat_id' => $model->id]),'/?lang' ?>"> <img src="<?= $model->imageUrl ?>" alt=""></a></figure>
                                 <div class="caption">
-                                <a href="<?= Yii::app()->createAbsoluteUrl('site/product', ['cat_id' => $model->id]),'/?lang' ?>"><p class="title"><?= $model->title ?></p></a>
-                                    <p><?= $model->description ?></p>
+                                <a href="<?= Yii::app()->createAbsoluteUrl('site/product', ['cat_id' => $model->id]),'/?lang' ?>"><p class="title">
+                                <?php if($lang=='ua'){
+                                        echo $model->titleUA;
+                                    }elseif($lang=='ru'){
+                                        echo $model->title;
+                                    }; 
+                                ?></p></a>
+                                    <p><?php
+                                        if($lang=='ua'){
+                                            echo $model->descriptionUA;
+                                        }elseif($lang=='ru'){
+                                            echo $model->description;
+                                        };
+                                    ?></p>
                                     <a href="<?= Yii::app()->createAbsoluteUrl('site/product', ['cat_id' => $model->id]),'/?lang' ?>" class="btn btn-success"><?php echo Yii::t('category', 'подробнее '); ?><!--подробнее --><span class="fa fa-angle-double-right"></span></a>
                                 </div>
 
