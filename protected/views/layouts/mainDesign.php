@@ -88,7 +88,15 @@ $productsDownBlock = Product::model()->findAll($criteria);
                                     <li class="active"><a href="<?php echo Yii::app()->request->baseUrl; ?>"><?php echo Yii::t('index', 'Главная'); ?></a></li>
                                 
                                     <select onchange="top.location=this.value" name="lang">
-                                    <option value="none" hidden=""><?php echo Yii::t('index', 'Выберите язык'); ?></option>
+                                    <option value="none" hidden="">
+                                        <?php 
+                                            if($lang=='ua'){
+                                                echo "Українська";
+                                            }elseif($lang=='ru'){
+                                                echo "Русский";
+                                            };
+                                        ?>
+                                    </option>
                                     <option value="?lang=ua">Українська</option>
                                     <option value="?lang=ru">Русский</option>
                                     </select>
